@@ -130,6 +130,14 @@ a i {
   main {
     padding: 2em;
   }
+  .icon-navbar1 {
+    top: 205px;
+    bottom: auto;
+  }
+  .icon-navbar2 {
+    top: 300px;
+    bottom: auto;
+  }
 }
 
 section {
@@ -232,6 +240,13 @@ h1 + p {
     top: 140px;
   }
 }
+@media screen and (min-width: 1061px) {
+  .clearfix img {
+    position: absolute;
+    inset: 0;
+    top: 70px;
+  }
+}
 
 @media screen and (min-width: 1200px) {
   body {
@@ -239,11 +254,6 @@ h1 + p {
   }
   section {
     border-radius: 20px;
-  }
-  .clearfix img {
-    position: absolute;
-    inset: 0;
-    top: 70px;
   }
 }
 
