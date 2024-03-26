@@ -131,11 +131,21 @@ a i {
     padding: 2em;
   }
   .icon-navbar1 {
-    top: 205px;
+    top: 240px;
     bottom: auto;
   }
   .icon-navbar2 {
-    top: 300px;
+    top: 310px;
+    bottom: auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .icon-navbar1 {
+    top: 0px;
+    bottom: auto;
+  }
+  .icon-navbar2 {
+    top: 80px;
     bottom: auto;
   }
 }
